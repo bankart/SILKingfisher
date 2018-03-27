@@ -1,0 +1,766 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		024E2414206A6E5900D30945 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024E2413206A6E5900D30945 /* AppDelegate.swift */; };
+		024E2416206A6E5900D30945 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024E2415206A6E5900D30945 /* ViewController.swift */; };
+		024E2419206A6E5900D30945 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 024E2417206A6E5900D30945 /* Main.storyboard */; };
+		024E241B206A6E5900D30945 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 024E241A206A6E5900D30945 /* Assets.xcassets */; };
+		024E241E206A6E5900D30945 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 024E241C206A6E5900D30945 /* LaunchScreen.storyboard */; };
+		024E2429206A6E5900D30945 /* HowlKingFisherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024E2428206A6E5900D30945 /* HowlKingFisherTests.swift */; };
+		024E2434206A6E5900D30945 /* HowlKingFisherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024E2433206A6E5900D30945 /* HowlKingFisherUITests.swift */; };
+		02562555206A714C0041DC6E /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02562554206A714C0041DC6E /* Images.swift */; };
+		5CA8EA8A4790C83FE1768E7B /* Pods_HowlKingFisherTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FE59D6526E6F49CE4CA3E5D /* Pods_HowlKingFisherTests.framework */; };
+		9AF6A4011DEB7C9332B57940 /* Pods_HowlKingFisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC3B81E8742F254F8CBE1E9 /* Pods_HowlKingFisher.framework */; };
+		FACAF7A82DA1200EC44EEF22 /* Pods_HowlKingFisherUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E6D05315B52A4FD67415AFB /* Pods_HowlKingFisherUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		024E2425206A6E5900D30945 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 024E2408206A6E5900D30945 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 024E240F206A6E5900D30945;
+			remoteInfo = HowlKingFisher;
+		};
+		024E2430206A6E5900D30945 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 024E2408206A6E5900D30945 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 024E240F206A6E5900D30945;
+			remoteInfo = HowlKingFisher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		024E2410206A6E5900D30945 /* HowlKingFisher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HowlKingFisher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		024E2413206A6E5900D30945 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		024E2415206A6E5900D30945 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		024E2418206A6E5900D30945 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		024E241A206A6E5900D30945 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		024E241D206A6E5900D30945 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		024E241F206A6E5900D30945 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		024E2424206A6E5900D30945 /* HowlKingFisherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HowlKingFisherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		024E2428206A6E5900D30945 /* HowlKingFisherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowlKingFisherTests.swift; sourceTree = "<group>"; };
+		024E242A206A6E5900D30945 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		024E242F206A6E5900D30945 /* HowlKingFisherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HowlKingFisherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		024E2433206A6E5900D30945 /* HowlKingFisherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowlKingFisherUITests.swift; sourceTree = "<group>"; };
+		024E2435206A6E5900D30945 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02562554206A714C0041DC6E /* Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		0D2FF1514F6EE2060A3B9AAC /* Pods-HowlKingFisherTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlKingFisherTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HowlKingFisherTests/Pods-HowlKingFisherTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1F7037F5F021688C1B8EAFFB /* Pods-HowlKingFisherTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlKingFisherTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HowlKingFisherTests/Pods-HowlKingFisherTests.release.xcconfig"; sourceTree = "<group>"; };
+		2E6D05315B52A4FD67415AFB /* Pods_HowlKingFisherUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HowlKingFisherUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EC3B81E8742F254F8CBE1E9 /* Pods_HowlKingFisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HowlKingFisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E0993745A564862F4E439E6 /* Pods-HowlKingFisherUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlKingFisherUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HowlKingFisherUITests/Pods-HowlKingFisherUITests.release.xcconfig"; sourceTree = "<group>"; };
+		97F5E614EE8EE2553CC4D6AF /* Pods-HowlKingFisher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlKingFisher.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HowlKingFisher/Pods-HowlKingFisher.debug.xcconfig"; sourceTree = "<group>"; };
+		9BCE02F21095D0D62AF9CF16 /* Pods-HowlKingFisher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlKingFisher.release.xcconfig"; path = "Pods/Target Support Files/Pods-HowlKingFisher/Pods-HowlKingFisher.release.xcconfig"; sourceTree = "<group>"; };
+		9FE59D6526E6F49CE4CA3E5D /* Pods_HowlKingFisherTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HowlKingFisherTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC99B8F70340E11B40C796E1 /* Pods-HowlKingFisherUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlKingFisherUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HowlKingFisherUITests/Pods-HowlKingFisherUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		024E240D206A6E5900D30945 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF6A4011DEB7C9332B57940 /* Pods_HowlKingFisher.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		024E2421206A6E5900D30945 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA8EA8A4790C83FE1768E7B /* Pods_HowlKingFisherTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		024E242C206A6E5900D30945 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACAF7A82DA1200EC44EEF22 /* Pods_HowlKingFisherUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		024E2407206A6E5900D30945 = {
+			isa = PBXGroup;
+			children = (
+				024E2412206A6E5900D30945 /* HowlKingFisher */,
+				024E2427206A6E5900D30945 /* HowlKingFisherTests */,
+				024E2432206A6E5900D30945 /* HowlKingFisherUITests */,
+				024E2411206A6E5900D30945 /* Products */,
+				C72127AC6196CF2C1941D0F2 /* Pods */,
+				4E0A2970F57B4AAC01C65D25 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		024E2411206A6E5900D30945 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				024E2410206A6E5900D30945 /* HowlKingFisher.app */,
+				024E2424206A6E5900D30945 /* HowlKingFisherTests.xctest */,
+				024E242F206A6E5900D30945 /* HowlKingFisherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		024E2412206A6E5900D30945 /* HowlKingFisher */ = {
+			isa = PBXGroup;
+			children = (
+				02562554206A714C0041DC6E /* Images.swift */,
+				024E2413206A6E5900D30945 /* AppDelegate.swift */,
+				024E2415206A6E5900D30945 /* ViewController.swift */,
+				024E2417206A6E5900D30945 /* Main.storyboard */,
+				024E241A206A6E5900D30945 /* Assets.xcassets */,
+				024E241C206A6E5900D30945 /* LaunchScreen.storyboard */,
+				024E241F206A6E5900D30945 /* Info.plist */,
+			);
+			path = HowlKingFisher;
+			sourceTree = "<group>";
+		};
+		024E2427206A6E5900D30945 /* HowlKingFisherTests */ = {
+			isa = PBXGroup;
+			children = (
+				024E2428206A6E5900D30945 /* HowlKingFisherTests.swift */,
+				024E242A206A6E5900D30945 /* Info.plist */,
+			);
+			path = HowlKingFisherTests;
+			sourceTree = "<group>";
+		};
+		024E2432206A6E5900D30945 /* HowlKingFisherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				024E2433206A6E5900D30945 /* HowlKingFisherUITests.swift */,
+				024E2435206A6E5900D30945 /* Info.plist */,
+			);
+			path = HowlKingFisherUITests;
+			sourceTree = "<group>";
+		};
+		4E0A2970F57B4AAC01C65D25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EC3B81E8742F254F8CBE1E9 /* Pods_HowlKingFisher.framework */,
+				9FE59D6526E6F49CE4CA3E5D /* Pods_HowlKingFisherTests.framework */,
+				2E6D05315B52A4FD67415AFB /* Pods_HowlKingFisherUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C72127AC6196CF2C1941D0F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97F5E614EE8EE2553CC4D6AF /* Pods-HowlKingFisher.debug.xcconfig */,
+				9BCE02F21095D0D62AF9CF16 /* Pods-HowlKingFisher.release.xcconfig */,
+				0D2FF1514F6EE2060A3B9AAC /* Pods-HowlKingFisherTests.debug.xcconfig */,
+				1F7037F5F021688C1B8EAFFB /* Pods-HowlKingFisherTests.release.xcconfig */,
+				EC99B8F70340E11B40C796E1 /* Pods-HowlKingFisherUITests.debug.xcconfig */,
+				8E0993745A564862F4E439E6 /* Pods-HowlKingFisherUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		024E240F206A6E5900D30945 /* HowlKingFisher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 024E2438206A6E5900D30945 /* Build configuration list for PBXNativeTarget "HowlKingFisher" */;
+			buildPhases = (
+				5B0A3744949309D66FC9BCC1 /* [CP] Check Pods Manifest.lock */,
+				024E240C206A6E5900D30945 /* Sources */,
+				024E240D206A6E5900D30945 /* Frameworks */,
+				024E240E206A6E5900D30945 /* Resources */,
+				9DF5C9AEE45137374237E531 /* [CP] Embed Pods Frameworks */,
+				788F90F4AA8FB1F63245602A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HowlKingFisher;
+			productName = HowlKingFisher;
+			productReference = 024E2410206A6E5900D30945 /* HowlKingFisher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		024E2423206A6E5900D30945 /* HowlKingFisherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 024E243B206A6E5900D30945 /* Build configuration list for PBXNativeTarget "HowlKingFisherTests" */;
+			buildPhases = (
+				B4FA7A3D7BE4CDF489D3F633 /* [CP] Check Pods Manifest.lock */,
+				024E2420206A6E5900D30945 /* Sources */,
+				024E2421206A6E5900D30945 /* Frameworks */,
+				024E2422206A6E5900D30945 /* Resources */,
+				1270AFC5693048218AF7C530 /* [CP] Embed Pods Frameworks */,
+				D3704DD4A95C0C6AC98B16FD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				024E2426206A6E5900D30945 /* PBXTargetDependency */,
+			);
+			name = HowlKingFisherTests;
+			productName = HowlKingFisherTests;
+			productReference = 024E2424206A6E5900D30945 /* HowlKingFisherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		024E242E206A6E5900D30945 /* HowlKingFisherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 024E243E206A6E5900D30945 /* Build configuration list for PBXNativeTarget "HowlKingFisherUITests" */;
+			buildPhases = (
+				756450D4574C7972636C72E1 /* [CP] Check Pods Manifest.lock */,
+				024E242B206A6E5900D30945 /* Sources */,
+				024E242C206A6E5900D30945 /* Frameworks */,
+				024E242D206A6E5900D30945 /* Resources */,
+				1F3D5F2866E712984BADD2A2 /* [CP] Embed Pods Frameworks */,
+				91E8E4B4921A12140A42793F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				024E2431206A6E5900D30945 /* PBXTargetDependency */,
+			);
+			name = HowlKingFisherUITests;
+			productName = HowlKingFisherUITests;
+			productReference = 024E242F206A6E5900D30945 /* HowlKingFisherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		024E2408206A6E5900D30945 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "유명식";
+				TargetAttributes = {
+					024E240F206A6E5900D30945 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					024E2423206A6E5900D30945 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 024E240F206A6E5900D30945;
+					};
+					024E242E206A6E5900D30945 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 024E240F206A6E5900D30945;
+					};
+				};
+			};
+			buildConfigurationList = 024E240B206A6E5900D30945 /* Build configuration list for PBXProject "HowlKingFisher" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 024E2407206A6E5900D30945;
+			productRefGroup = 024E2411206A6E5900D30945 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				024E240F206A6E5900D30945 /* HowlKingFisher */,
+				024E2423206A6E5900D30945 /* HowlKingFisherTests */,
+				024E242E206A6E5900D30945 /* HowlKingFisherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		024E240E206A6E5900D30945 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				024E241E206A6E5900D30945 /* LaunchScreen.storyboard in Resources */,
+				024E241B206A6E5900D30945 /* Assets.xcassets in Resources */,
+				024E2419206A6E5900D30945 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		024E2422206A6E5900D30945 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		024E242D206A6E5900D30945 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1270AFC5693048218AF7C530 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HowlKingFisherTests/Pods-HowlKingFisherTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F3D5F2866E712984BADD2A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HowlKingFisherUITests/Pods-HowlKingFisherUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B0A3744949309D66FC9BCC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HowlKingFisher-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		756450D4574C7972636C72E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HowlKingFisherUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		788F90F4AA8FB1F63245602A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HowlKingFisher/Pods-HowlKingFisher-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91E8E4B4921A12140A42793F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HowlKingFisherUITests/Pods-HowlKingFisherUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DF5C9AEE45137374237E531 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HowlKingFisher/Pods-HowlKingFisher-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HowlKingFisher/Pods-HowlKingFisher-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4FA7A3D7BE4CDF489D3F633 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HowlKingFisherTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3704DD4A95C0C6AC98B16FD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HowlKingFisherTests/Pods-HowlKingFisherTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		024E240C206A6E5900D30945 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				024E2416206A6E5900D30945 /* ViewController.swift in Sources */,
+				02562555206A714C0041DC6E /* Images.swift in Sources */,
+				024E2414206A6E5900D30945 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		024E2420206A6E5900D30945 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				024E2429206A6E5900D30945 /* HowlKingFisherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		024E242B206A6E5900D30945 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				024E2434206A6E5900D30945 /* HowlKingFisherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		024E2426206A6E5900D30945 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 024E240F206A6E5900D30945 /* HowlKingFisher */;
+			targetProxy = 024E2425206A6E5900D30945 /* PBXContainerItemProxy */;
+		};
+		024E2431206A6E5900D30945 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 024E240F206A6E5900D30945 /* HowlKingFisher */;
+			targetProxy = 024E2430206A6E5900D30945 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		024E2417206A6E5900D30945 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				024E2418206A6E5900D30945 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		024E241C206A6E5900D30945 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				024E241D206A6E5900D30945 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		024E2436206A6E5900D30945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		024E2437206A6E5900D30945 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		024E2439206A6E5900D30945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97F5E614EE8EE2553CC4D6AF /* Pods-HowlKingFisher.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HowlKingFisher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bpplatform.HowlKingFisher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		024E243A206A6E5900D30945 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BCE02F21095D0D62AF9CF16 /* Pods-HowlKingFisher.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HowlKingFisher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bpplatform.HowlKingFisher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		024E243C206A6E5900D30945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D2FF1514F6EE2060A3B9AAC /* Pods-HowlKingFisherTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HowlKingFisherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bpplatform.HowlKingFisherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HowlKingFisher.app/HowlKingFisher";
+			};
+			name = Debug;
+		};
+		024E243D206A6E5900D30945 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F7037F5F021688C1B8EAFFB /* Pods-HowlKingFisherTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HowlKingFisherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bpplatform.HowlKingFisherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HowlKingFisher.app/HowlKingFisher";
+			};
+			name = Release;
+		};
+		024E243F206A6E5900D30945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC99B8F70340E11B40C796E1 /* Pods-HowlKingFisherUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HowlKingFisherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bpplatform.HowlKingFisherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HowlKingFisher;
+			};
+			name = Debug;
+		};
+		024E2440206A6E5900D30945 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E0993745A564862F4E439E6 /* Pods-HowlKingFisherUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HowlKingFisherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bpplatform.HowlKingFisherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HowlKingFisher;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		024E240B206A6E5900D30945 /* Build configuration list for PBXProject "HowlKingFisher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				024E2436206A6E5900D30945 /* Debug */,
+				024E2437206A6E5900D30945 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		024E2438206A6E5900D30945 /* Build configuration list for PBXNativeTarget "HowlKingFisher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				024E2439206A6E5900D30945 /* Debug */,
+				024E243A206A6E5900D30945 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		024E243B206A6E5900D30945 /* Build configuration list for PBXNativeTarget "HowlKingFisherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				024E243C206A6E5900D30945 /* Debug */,
+				024E243D206A6E5900D30945 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		024E243E206A6E5900D30945 /* Build configuration list for PBXNativeTarget "HowlKingFisherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				024E243F206A6E5900D30945 /* Debug */,
+				024E2440206A6E5900D30945 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 024E2408206A6E5900D30945 /* Project object */;
+}
